@@ -1,0 +1,17 @@
+body{
+	background-color: #b2d4ff;
+}
+
+#gif-area{
+	float: left;
+	width: 75%
+}
+
+#cartoon-form{
+	float: right;
+	width: 25%;
+}
+
+#gif-div{
+	float: left;
+}
