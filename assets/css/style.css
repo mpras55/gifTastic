@@ -1,5 +1,8 @@
 body{
-	background-color: #b2d4ff;
+	background-color: #014885;
+	margin: 20px 30px 20px 30px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: #b2dcff;
 }
 
 #gif-area{
@@ -9,9 +12,73 @@ body{
 
 #cartoon-form{
 	float: right;
-	width: 25%;
+	width: 20%;
 }
 
 #gif-div{
 	float: left;
 }
+
+.cartoon-button
+,#add-cartoon
+,#cartoon-form
+,#cartoon-input
+,img
+{
+	margin: 5px;
+}
+
+#gif-div{
+	margin: 8px;
+}
+
+
+#cartoon-form{
+	font-size: 20px;
+	text-align: center;
+}
+.cartoon-button
+,#add-cartoon{
+	background-color: #026fcc;
+	color: #b2dcff;
+	padding: 5px;
+	font-size: 18px;
+}
+
+#add-cartoon{
+	width: 250px;
+}
+
+#cartoon-input{
+	background-color: #b2dcff;
+	width: 240px;
+	border-width: 4px;
+}
+
+#cartoon-input:focus{
+border-color: #0702ff;
+}
+
+#cartoon-input{
+	font-size: 18px;
+	height: 27px;
+}
+.cartoon-button:hover
+,#add-cartoon:hover{
+	background-color: #1c527f;
+	color: #ffffff;
+}
+
+.cartoon-button:visited{
+	background-color: #1c527f;
+	color: #ffffff;
+}
+
+
+p{
+	text-align: center;
+	font-size: 18px;
+}
+
+
+
